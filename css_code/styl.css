@@ -1,15 +1,56 @@
 body 
 {
     flex-wrap: wrap;
+    background-color: aliceblue;
+    /*min-height: 100%;*/
+    display: table;
+    /*height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;*/
+    width: 100%;
 }
+
+html
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*.the_page
+{
+    width: 900px;
+    margin: auto;
+}*/
 
 header 
 {
     display: flex;
     justify-content: space-between;
+    background-color: white;
+    align-items: flex-end;
+    color: rgb(30, 30, 66);
     /*flex-wrap: wrap;*/
     /*justify-content: space-around;*/
     /*border: 16px black solid;*/
+}
+
+.haad
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li
+{
+    margin-left: 30px;
+}
+
+nav a 
+{
+    font-size: 1.3em;
+    color:  rgb(30, 30, 66);
+    text-decoration: none;
 }
 
 footer
@@ -18,35 +59,319 @@ footer
     justify-content: space-around;
     background-color: rgb(30, 30, 66);
     color: aliceblue;
+    /*height: 100px;*/
     width: 100%;
-    position: absolute;
-    bottom: 0px;
+    /*position: absolute;
+    bottom: 0px;*/
+    /*padding: 80px;*/
+    padding-bottom: 10px;
     
     /*align-items: flex-end;*/
 }
 
 ul 
 {
-    list-style-type: georgian;
+    list-style-type: none;
+    list-style: element();
 }
+
+
+/*li:hover
+{
+    color: orange;
+}*/
+header a:visited
+{
+    color: rgb(30, 30, 66);
+}
+
+footer a:visited
+{
+    color: white;
+}
+
+header a:hover
+{
+    color: orange;
+}
+
+footer a:hover
+{
+    color: orange;
+}
+
+
+.had:hover
+{
+    text-decoration: underline;
+}
+
 .cont
 {
+    color: aliceblue;
     background-color:  rgb(30, 30, 66);
     height: 50%;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 20px;
-    color: aliceblue;
 }
 
-li:hover
+.tdr
 {
-    text-decoration: underline;
+    text-align: center;
+    /* position: absolute; */
+    /* bottom: 0px; */
+    margin: 0%;
+    padding-bottom: 16px;
+    width: 100%;
+    color: rgb(255, 238, 0);
+    background-color: rgb(30, 30, 66);
 }
-.had:hover
+
+footer a 
 {
-    text-decoration: underline;
+    text-decoration: none;
+    color: white;
 }
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+    /* overflow: auto; */
+}
+
+section article, aside
+{
+    text-align: justify;
+}
+
+.theart
+{
+    margin-right: 20px;
+    flex: 3;
+    /*width: 20%;
+    height: 100px; */
+
+    /*font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(24, 24, 62);
+    color: azure;
+    width: 50%;
+    height: 200px;
+    overflow: auto;*/
+}
+
+.theart h1
+{
+    text-align: center;
+}
+
+.theasd 
+{
+
+    flex: 1.2;
+    position: relative;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+
+*
+{
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*.heid
 {
